@@ -1,0 +1,12 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(17, 17, 27);
+
+  background: linear-gradient(90deg, #0c0606, #1a7529 10%, #120c0c, #003a16);
+}

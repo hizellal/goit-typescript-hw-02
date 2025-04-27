@@ -1,0 +1,45 @@
+.toast {
+    border: 3px solid #fff222;
+    background-color: bisque;
+    color: blue;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: fit-content;
+    padding-top: 8px;
+    padding-bottom: 12px;
+    margin-bottom: 50px;
+}
+
+input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  background-color: transparent;
+  padding-left: 15px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 537px) {
+  input {
+    min-width: 160px;
+  }
+
+  button {
+    padding: 7px 7px;
+    border: 5px;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    border-width: 7px 0px 5px 0px;
+  }
+}
