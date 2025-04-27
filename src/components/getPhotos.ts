@@ -7,7 +7,7 @@ export interface IUnsplashResponse {
   results: IPhoto[];
 }
 
-const API_KEY = "PY0OcrbLB7wbYiTT8GOPo1TW2_-ELsSSNvf2az-AVvg";
+const API_KEY = "JxtDohqrvLiUtsCQPJqUcZZFVHIZOMdWOqW05zEKHjE";
 const BASE_URL = "https://api.unsplash.com/";
 
 export const getPhotosFromUnsplash = async (
